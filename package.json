@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-souffle",
+  "version": "1.0.0",
+  "description": "eslint shareable config for souffle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/eslint-config-souffle.git"
+  },
+  "keywords": [
+    "souffle",
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/eslint-config-souffle/issues"
+  },
+  "homepage": "https://github.com/kt3k/eslint-config-souffle#readme",
+  "peerDependencies": {
+    "eslint-config-standard": "^4.0.0",
+    "eslint-plugin-standard": "^1.2.0"
+  },
+  "eslintrc": {
+    "extends": "standard",
+    "rules": {
+      "indent": [2, 4, { "SwitchCase": 1 }],
+      "padded-blocks": 0
+    }
+  }
+}
