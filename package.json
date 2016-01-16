@@ -28,8 +28,26 @@
   "eslintrc": {
     "extends": "standard",
     "rules": {
-      "indent": [2, 4, {"SwitchCase": 1}],
-      "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+      "indent": [
+        2,
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "space-before-function-paren": [
+        2,
+        {
+          "anonymous": "always",
+          "named": "never"
+        }
+      ],
+      "no-multiple-empty-lines": [
+        2,
+        {
+          "max": 7
+        }
+      ],
       "padded-blocks": 0
     }
   }
