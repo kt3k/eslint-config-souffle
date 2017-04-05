@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kt3k/eslint-config-souffle#readme",
   "peerDependencies": {
-    "eslint-config-standard": "^6.2.0",
+    "eslint-config-standard": "^8.0.0",
     "eslint-plugin-standard": "^2.0.0"
   },
   "eslintrc": {
